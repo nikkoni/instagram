@@ -1,0 +1,17 @@
+# проверка своей ветки
+git branch
+
+# создание новой ветки и переключение на неё
+git checkout -b branch-name
+
+# переход на другую ветку
+git checkout branch-name
+
+# пуш с созданием ветки в github
+git push --set-upstream origin branch-name
+
+# стянуть изменения на текущей ветке
+git pull
+
+# стянуть изменения с другой ветки c github
+git pull origin branch-name
